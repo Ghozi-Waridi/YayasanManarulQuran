@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Tombol Cari */
+/*
+.form-control{
+    border-radius: 10px;
+    outline-color: #ffffff;
+    color: white;
+    border: 0;
+    outline: 0;
+    height: 100%;
+    background: none;
+    caret-color: transparent;
+    line-height: 20px;
+    transition: width 0.4s linear;
+}
+*/
+
+.search-input {
+    color: transparent;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top: 5px;
+    caret-color: transparent;
+    line-height: 20px;
+    transition: width 0.4s linear
+}
+
+.search .search-input {
+    padding: 0px 10px;
+    width: 100%;
+    caret-color: rgb(79, 189, 226);
+    font-size: 19px;
+    font-weight: 300;
+    color: black;
+    transition: width 0.4s linear;
+}
+
+.search {
+    width: 100%;
+    margin-bottom: auto;
+    margin-top: 0px;
+    height: 50px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Tombol Cari - Ikon cari */
+/*
+.search-icon {
+    height: relative;
+    width: 25%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #536bf6;
+    font-size: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+*/
+
+.search-icon {
+    height: 34px;
+    width: 34px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(79, 189, 226);
+    font-size: 20px;
+    bottom: 30px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.search-icon:hover{
+    color: #fff;
+}
+
+a:link {
+    text-decoration: none
+}
+/* Tombol Cari - Ikon cari */
+/* Tombol Cari */
+
+/* Navbar */
+.nav-item .nav-link{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Navbar */
+
+/* Hero */
+#hero{
+    background-image:  url('../images/beranda.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.hero-title{
+    padding-top: 200px;
+}
+
+.hero-text{
+    font-size: 40px;
+    font-weight: 450;
+}
+
+/* Responsive Layar jika minimal W 800px */
+@media screen and (min-width: 800px) {
+    .hero-text{
+        font-size: 60px;
+        font-weight: 450;
+    }
+}
+/* Responsive Layar jika minimal W 800px */
+/* Hero */
+
+/* Tampilan Mini */
+.tulisan-mini{
+    font-size: 13px;
+    font-weight: 100;
+}
+/* Responsive Layar jika minimal W 500px */
+@media screen and (min-width: 500px){
+    .tulisan-mini{
+        font-size: 20px;
+        font-weight: 100;
+    }
+}
+/* Responsive Layar jika minimal W 500px */
+/* Tampilan Mini */
+
+/* Tombol Berita Lainnya */
+.btn-outline-success{
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: green;
+    padding: 10px 45px;
+    color: green;
+}
+/* Tombol Berita Lainnya */
+
+/* Navbar Scroll */
+.scroll-nav-active{
+    background-color: white;
+    box-shadow: 3px 3px 11px -1px rgba(1, 1, 1, 0.2); /* Bayangan tipis di bagian bawah navbar */
+}
+
+.text-nav-active{
+    color: white;
+}
+/* Navbar Scroll */
+
+/* Join Section */
+.stripe{
+    height:5px;
+    width: 40px;
+    background-color: green;
+}
+/* Join Section */
+
+/* Video-Solo*/
+#video{
+    background-image: url("../images/il-bg-video.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+/* Video-Solo*/
+
+/* Foto Kegiatan */
+.section-foto{
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kegiatan{
+    background-image: url("../images/il-bg-fotoparalaksnewb.jpeg");
+
+}
+
+.stripe-putih{
+    height: 5px;
+    width: 40px;
+    background-color: #ffffff;
+}
+/* Foto Kegiatan */
+
+/*
+.btn-outline-white{
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: white;
+    padding: 10px 45px;
+    color: white;
+}
+*/
+
+/*
+.btn-outline-white{
+    border-radius: 10px;
+    border-color: white;
+}
+
+.btn-outline-white:hover{
+    border-radius: 10px;
+    border-color: white;
+    background-color: #ffffff;
+}
+*/
+/* Foto Paralaks */
